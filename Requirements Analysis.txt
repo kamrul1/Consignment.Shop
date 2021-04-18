@@ -1,0 +1,24 @@
+
+
+Classes required
+
+
+Vendor
+	Firstname: string
+	Lastname: string
+	Commission: double
+	
+
+
+Item
+	Title: string		
+	Description: string
+	Price: decimal
+	Sold: boolean
+	PaymentDistributed: boolean
+	Owner: Vendor
+
+Store
+	Name: string
+	Vendors: Vendor
+	Items: Item
